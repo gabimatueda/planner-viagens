@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Planner de Viagem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de Planner de Viagem desenvolvido com React durante o evento NLW Journey da Rocketseat. O objetivo deste projeto é ajudar os usuários a planejarem suas viagens de forma organizada e eficiente.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/)
+- [TypeScript](https://developer.mozilla.org/en-US/docs/Web/TypeScript)
+- [TailwindCSS](https://developer.mozilla.org/en-US/docs/Web/TailwindCSS)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 💻 Projeto
 
-- Configure the top-level `parserOptions` property like this:
+O Planner de Viagem permite que os usuários adicionem, editem e removam itens do seu planejamento de viagem. É possível incluir destinos, datas, atividades e outras informações relevantes para uma viagem bem organizada.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Funcionalidades
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Adicionar novos destinos de viagem
+- Editar destinos existentes
+- Remover destinos
+- Visualizar lista de destinos planejados
+- Marcar atividades como concluídas
+- Visualização interativa e responsiva
+
+## 📦 Como executar o projeto
